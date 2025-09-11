@@ -117,7 +117,7 @@ const ApartmentCard = () => {
                                                     {property.title}
                                                 </h3>
                                                 <div className="flex justify-between items-center">
-                                                    <span className="text-base  ">
+                                                    <span className="text-sm  ">
                                                         {property.quantity}
                                                     </span>
                                                    

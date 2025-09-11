@@ -5,6 +5,10 @@ import DiscoverFeatured from '../Pages/DiscoverFeatured';
 import ApartmentTypes from '../Pages/ApartmentTypes';
 import Realtor from '../Pages/Realtor';
 import ApartmentCard from '../Pages/ApartmentCard';
+import BuySell from '../Pages/BuySell';
+import Comment from '../Pages/Comment';
+import Trusted from '../Pages/Trusted';
+import BestDeal from '../Pages/BestDeal';
 
 const MainLayout = () => {
     return (
@@ -15,6 +19,10 @@ const MainLayout = () => {
             <ApartmentTypes></ApartmentTypes>
             <Realtor></Realtor>
             <ApartmentCard></ApartmentCard>
+            <BuySell></BuySell>
+            <Comment></Comment>
+            <BestDeal></BestDeal>
+            <Trusted></Trusted>
             <Footer></Footer>
         </div>
     );
