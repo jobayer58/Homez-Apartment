@@ -3,6 +3,7 @@ import Banner from '../Pages/banner';
 import Footer from '../Pages/Footer';
 import DiscoverFeatured from '../Pages/DiscoverFeatured';
 import ApartmentTypes from '../Pages/ApartmentTypes';
+import Realtor from '../Pages/Realtor';
 
 const MainLayout = () => {
     return (
@@ -11,6 +12,7 @@ const MainLayout = () => {
             <Banner></Banner>
             <DiscoverFeatured></DiscoverFeatured>
             <ApartmentTypes></ApartmentTypes>
+            <Realtor></Realtor>
             <Footer></Footer>
         </div>
     );
