@@ -14,7 +14,7 @@ const Banner = () => {
             />
 
             {/* Banner Content */}
-            <div className="max-w-5xl md:h-[130px] absolute left-1/2 bottom-[-65px] transform -translate-x-1/2 
+            <div className="max-w-6xl md:h-[130px] absolute left-1/2 bottom-[-65px] transform -translate-x-1/2 
                   bg-white rounded-2xl shadow-lg w-11/12 md:w-4/5 lg:w-3/4 p-2 px-3">
                 {/* Tabs */}
                 <div className="flex gap-4  pb-2 mb-4">

@@ -24,7 +24,7 @@ const Navbar = () => {
             className={`fixed top-0 left-0 w-full z-50 border-b-[1px] border-[#FFFFFF12] transition-all duration-300 ${isScrolled ? "bg-transparent backdrop-blur-[10px] shadow-md" : "bg-transparent "
                 }`}
         >
-            <div className="max-w-5xl mx-auto flex justify-between items-center px-6 py-4">
+            <div className="max-w-6xl mx-auto flex justify-between items-center px-6 py-4">
                 {/* logo */}
                 <div>
                    <Link to='/'> <img src={logo} className=" h-10 object-cover w-32 " alt="logo" /></Link>
