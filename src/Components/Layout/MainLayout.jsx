@@ -4,6 +4,7 @@ import Footer from '../Pages/Footer';
 import DiscoverFeatured from '../Pages/DiscoverFeatured';
 import ApartmentTypes from '../Pages/ApartmentTypes';
 import Realtor from '../Pages/Realtor';
+import ApartmentCard from '../Pages/ApartmentCard';
 
 const MainLayout = () => {
     return (
@@ -13,6 +14,7 @@ const MainLayout = () => {
             <DiscoverFeatured></DiscoverFeatured>
             <ApartmentTypes></ApartmentTypes>
             <Realtor></Realtor>
+            <ApartmentCard></ApartmentCard>
             <Footer></Footer>
         </div>
     );

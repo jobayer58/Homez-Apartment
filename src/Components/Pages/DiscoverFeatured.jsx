@@ -66,7 +66,7 @@ const DiscoverFeatured = () => {
       <div className="max-w-6xl mx-auto pt-36 pb-16 px-4">
         {/* Section Header */}
         <div className="text-start mb-12">
-          <h2 className="text-2xl font-bold">Discover Our Featured Listings</h2>
+          <h2 className="text-3xl font-bold">Discover Our Featured Listings</h2>
           <div className="flex flex-col md:flex-row justify-between gap-2 py-3">
             <h1 className="text-[#717171] text-sm">
               Aliquam lacinia diam quis lacus euismod
