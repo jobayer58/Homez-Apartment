@@ -5,8 +5,6 @@ const BuySell = () => {
     return (
         <div className='py-12'>
             <img src={buyBanner} alt="" />
-            
-            
         </div>
     );
 };

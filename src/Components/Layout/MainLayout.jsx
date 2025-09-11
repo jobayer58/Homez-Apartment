@@ -9,6 +9,7 @@ import BuySell from '../Pages/BuySell';
 import Comment from '../Pages/Comment';
 import Trusted from '../Pages/Trusted';
 import BestDeal from '../Pages/BestDeal';
+import OurBlog from '../Pages/OurBlog';
 
 const MainLayout = () => {
     return (
@@ -22,6 +23,7 @@ const MainLayout = () => {
             <BuySell></BuySell>
             <Comment></Comment>
             <BestDeal></BestDeal>
+            <OurBlog></OurBlog>
             <Trusted></Trusted>
             <Footer></Footer>
         </div>

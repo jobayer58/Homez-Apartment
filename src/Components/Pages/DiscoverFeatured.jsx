@@ -63,7 +63,7 @@ const DiscoverFeatured = () => {
 
   return (
     <div className="bg-[#F7F7F7]">
-      <div className="max-w-6xl mx-auto pt-36 pb-16 px-4">
+      <div className="max-w-6xl mx-auto pt-36 pb-16 px-4 lg:px-0">
         {/* Section Header */}
         <div className="text-start mb-12">
           <h2 className="text-3xl font-bold">Discover Our Featured Listings</h2>
