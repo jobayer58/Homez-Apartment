@@ -6,10 +6,10 @@ import ApartmentTypes from '../Pages/ApartmentTypes';
 import Realtor from '../Pages/Realtor';
 import ApartmentCard from '../Pages/ApartmentCard';
 import BuySell from '../Pages/BuySell';
-import Comment from '../Pages/Comment';
 import Trusted from '../Pages/Trusted';
 import BestDeal from '../Pages/BestDeal';
 import OurBlog from '../Pages/OurBlog';
+import Testimonials from '../Pages/Testimonials';
 
 const MainLayout = () => {
     return (
@@ -21,7 +21,7 @@ const MainLayout = () => {
             <Realtor></Realtor>
             <ApartmentCard></ApartmentCard>
             <BuySell></BuySell>
-            <Comment></Comment>
+            <Testimonials></Testimonials>
             <BestDeal></BestDeal>
             <OurBlog></OurBlog>
             <Trusted></Trusted>

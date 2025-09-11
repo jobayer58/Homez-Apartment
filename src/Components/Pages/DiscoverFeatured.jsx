@@ -92,7 +92,7 @@ const DiscoverFeatured = () => {
                       ? "sm:w-full" : cardsPerView === 2 ? "sm:w-1/2" : "lg:w-1/3"
                   } flex-shrink-0 px-3`}
                 >
-                  <div className="bg-white rounded-xl overflow-hidden transition-transform duration-300 hover:shadow-xl hover:-translate-y-1">
+                  <div className="bg-white rounded-xl overflow-hidden transition-transform duration-300  hover:-translate-y-1">
                     {/* Property Image */}
                     <div className="relative">
                       <img
