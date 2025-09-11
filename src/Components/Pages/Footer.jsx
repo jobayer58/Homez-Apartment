@@ -5,7 +5,7 @@ import { FaApple, FaGooglePlay } from 'react-icons/fa';
 
 const Footer = () => {
     return (
-        <div className='mt-20 bg-[#181A20]'>
+        <div className=' bg-[#181A20]'>
             <div className='text-[#ffffff] max-w-6xl mx-auto px-4 sm:px-6'>
                 <div>
                     {/* upper text */}
