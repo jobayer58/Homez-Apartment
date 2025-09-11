@@ -27,7 +27,7 @@ const Navbar = () => {
             <div className="max-w-5xl mx-auto flex justify-between items-center px-6 py-4">
                 {/* logo */}
                 <div>
-                   <Link to='/'> <img src={logo} alt="" /></Link>
+                   <Link to='/'> <img src={logo} className=" h-10 object-cover w-32 " alt="logo" /></Link>
                 </div>
                 {/* Nav link */}
                 <div>
@@ -39,7 +39,7 @@ const Navbar = () => {
                                 after:content-[''] after:w-2 after:h-0.5 after:bg-white"
                             >
                                 <span
-                                    className="relative after:content-[''] after:absolute after:w-0 after:h-[1px] 
+                                    className="relative after:content-[''] after:absolute after:w-0 after:h-[2px] 
                                     after:bg-white after:left-0 after:-bottom-1 
                                     after:transition-all after:duration-300 
                                     hover:after:w-full"
@@ -51,10 +51,10 @@ const Navbar = () => {
                     </ul>
                 </div>
                 {/* signin /signup */}
-                <div className="flex text-white gap-3  items-center">
+                <div className="flex text-white gap-4  items-center">
                     <CgProfile className="text-2xl"></CgProfile>
-                    <h2>Login / Register</h2>
-                    <button className="flex items-center gap-0.5 bg-white border border-white rounded-[10px] py-2 px-3 text-black cursor-pointer font-medium">Add Property <GoArrowUpRight className="text-xl"></GoArrowUpRight></button>
+                    <h2 className="text-[14px]">Login / Register</h2>
+                    <button className="flex items-center gap-0.5 bg-white border border-white rounded-[12px] py-2 px-5 text-black cursor-pointer font-bold text-xs ">Add Property <GoArrowUpRight className="text-xl"></GoArrowUpRight></button>
                 </div>
             </div>
         </nav>
