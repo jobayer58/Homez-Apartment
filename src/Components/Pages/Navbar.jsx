@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react";
-import logo from '../../assets/logo.png'
+import logo from '../../assets/logoNavbar.png'
 import { CgProfile } from "react-icons/cg";
 import { GoArrowUpRight } from "react-icons/go";
 import { Link } from "react-router";
 import { FiMenu, FiX } from "react-icons/fi";
+
 
 const Navbar = () => {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -23,20 +24,21 @@ const Navbar = () => {
 
     return (
         <nav
-            className={`fixed top-0 left-0 w-full z-50 border-b-[1px] border-[#FFFFFF12] transition-all duration-300 ${isScrolled ? "bg-white shadow-md" : "bg-transparent"
+            className={`fixed top-0 left-0 w-full z-50 border-b-[1px] border-[#FFFFFF12] transition-all duration-300 ${isScrolled ? "shadow-md bg-transparent backdrop-blur-[10px]" : "bg-transparent"
                 }`}
         >
             <div className="max-w-6xl mx-auto flex justify-between items-center px-6 lg:px-0 py-4">
                 {/* logo */}
-                <div>
-                    <Link to="/">
-                        <img src={logo} className="h-10 object-cover w-32" alt="logo" />
-                    </Link>
+                <div className="flex gap-3 items-center justify-center">
+                    <div className="w-[44px] h-[44px] rounded-full bg-[#EB6753] flex justify-center items-center">
+                        <img src={logo} alt="" />
+                    </div>
+                    <h1 className={`text-xl font-bold ${isScrolled ? "text-black" : "text-white"}`}>Homez</h1>
                 </div>
 
                 {/* Desktop & Tablet Nav link */}
                 <div className="hidden lg:block">
-                    <ul className={`flex gap-10 text-[14px] ${isScrolled ? "text-black" : "text-white"}`}>
+                    <ul className={`flex gap-18 text-[14px] ${isScrolled ? "text-black" : "text-white"}`}>
                         {["Home", "Listings", "Members", "Blog", "Pages"].map((item, i) => (
                             <li
                                 key={i}

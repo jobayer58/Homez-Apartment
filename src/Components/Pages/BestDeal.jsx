@@ -45,7 +45,7 @@ const BestDeal = () => {
 
     return (
         <div className='bg-[#EB6753]'>
-            <div className="max-w-6xl mx-auto py-16 lg:px-0 px-4  ">
+            <div className="max-w-6xl mx-auto py-16 lg:px-2 px-4  ">
                 {/* Section Header */}
                 <div className="text-start mb-12">
                     <h2 className="text-2xl sm:text-3xl font-bold text-white">

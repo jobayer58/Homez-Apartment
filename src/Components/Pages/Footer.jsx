@@ -1,6 +1,6 @@
 import React from 'react';
 import { BiLogoFacebook, BiLogoInstagram, BiLogoLinkedin, BiLogoTwitter } from 'react-icons/bi';
-import footerLogo from '../../assets/logo.png'
+import footerLogo from '../../assets/logoNavbar.png'
 import { FaApple, FaGooglePlay } from 'react-icons/fa';
 
 const Footer = () => {
@@ -37,7 +37,12 @@ const Footer = () => {
                         {/* logo */}
                         <div className='flex flex-col md:w-1/3'>
                             <ul className='text-md text-[#BEBDBD] space-y-4'>
-                                <img src={footerLogo} className='h-10 object-cover w-32' alt="" />
+                                <div className="flex gap-3 items-center">
+                                    <div className="w-[44px] h-[44px] rounded-full bg-[#EB6753] flex justify-center items-center">
+                                        <img src={footerLogo} alt="" />
+                                    </div>
+                                    <h1 className="text-xl text-white">Homez</h1>
+                                </div>
                                 <h2 className='mt-6'>Address</h2>
                                 <li className='leading-7 text-white'>
                                     789 Queensberry Street, North <br /> Melbourne VIC 3051, Australia.

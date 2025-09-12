@@ -14,7 +14,7 @@ const Realtor = () => {
                 </div>
 
                 {/* card parent */}
-                <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-9 gap-5 py-10 pb-20 px-5 lg:px-0'>
+                <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-9 gap-5 py-10 pb-20 px-5 lg:px-2'>
                     
                     {/* 1 */}
                     <div className='relative col-span-1 sm:col-span-1 lg:col-span-3 h-[398px] bg-white rounded-2xl text-center space-y-8 py-12'>

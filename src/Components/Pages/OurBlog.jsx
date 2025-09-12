@@ -7,7 +7,7 @@ import blog4 from '../../assets/div.top-image4.png'
 const OurBlog = () => {
     return (
         <div>
-            <div className='max-w-6xl mx-auto py-6 px-4 sm:px-6 lg:px-0'>
+            <div className='max-w-6xl mx-auto py-6 px-4 sm:px-6 lg:px-2'>
                 {/* Hading Section */}
                 <div className='text-center space-y-3 pt-20'>
                     <h1 className='text-3xl font-bold'>From Our Blog</h1>

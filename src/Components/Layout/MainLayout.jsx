@@ -1,5 +1,5 @@
 import Navbar from '../Pages/Navbar';
-import Banner from '../Pages/banner';
+import Banner from '../Pages/Banner';
 import Footer from '../Pages/Footer';
 import DiscoverFeatured from '../Pages/DiscoverFeatured';
 import ApartmentTypes from '../Pages/ApartmentTypes';

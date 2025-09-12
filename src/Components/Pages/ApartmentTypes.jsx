@@ -17,7 +17,7 @@ const ApartmentTypes = () => {
                 </div>
 
                 {/* image layer */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-5 px-4 lg:px-0">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-5 px-4 lg:px-2">
                     {/* 1st row */}
                     <div className="relative col-span-1 sm:col-span-1 lg:col-span-6 h-[260px]">
                         <img src={type1} alt="type1" className="w-full h-full object-cover rounded-xl" />

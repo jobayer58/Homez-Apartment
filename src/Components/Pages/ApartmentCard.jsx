@@ -72,7 +72,7 @@ const ApartmentCard = () => {
     return (
         <div>
             <div className="">
-                <div className="max-w-6xl mx-auto pt-20 md:pt-36 pb-16 lg:px-0 px-3">
+                <div className="max-w-6xl mx-auto pt-20 md:pt-36 pb-16 lg:px-2 px-3">
                     {/* Section Header */}
                     <div className="text-start mb-12">
                         <h2 className="text-3xl font-bold">Exploring Apartments Types</h2>
