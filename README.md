@@ -1,12 +1,50 @@
-# React + Vite
+# Homez Apartment Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🔗 Live Site
 
-Currently, two official plugins are available:
+👉 [Homez Live](https://homez-apartment.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Tech Choices
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **React**  
+   - Used for building reusable components and managing state efficiently.
+
+2. **Tailwind CSS**  
+   - Utility-first styling framework for fast, responsive design.  
+   - Enabled consistent spacing, grids, flex layouts, and responsive breakpoints.
+
+3. **Vite**  
+   - Fast development server and optimized production builds.  
+
+4. **React Icons**  
+   - For including scalable and customizable icons easily.
+
+5. **Vercel**  
+   - For easy deployment with automatic build and CI/CD.
+
+---
+
+## Extra Features / Notes
+
+- **Responsive Design:** Fully responsive for mobile, tablet, and desktop using Tailwind’s grid and flex utilities.  
+
+- **Smooth Transitions & Animations:**  
+  - Buttons, cards, and navbar have hover and transition effects for a polished user experience.  
+  - Navbar text and background smoothly change color on scroll.
+
+- **Navbar Scroll Effect:** Navbar background and text color change dynamically when scrolling for better visibility.
+
+- **Advanced Search Card:**  
+  - Top tab section and main search card positioned perfectly across all screen sizes.  
+  - Includes search filters for keywords, type, location, price, and advanced options.
+
+- **Deployment:** Successfully deployed on Vercel with default Vite output directory (`dist`).
+
+---
+
+## Notes
+
+- All components are reusable and maintainable.  
+- Focused on a modern, clean UI with attention to UX and responsiveness.  
+- Extra care taken for smooth transitions and hover effects to enhance interactivity.
