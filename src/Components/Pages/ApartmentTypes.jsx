@@ -9,9 +9,9 @@ import type6 from '../../assets/type6.jpg.png'
 const ApartmentTypes = () => {
     return (
         <div>
-            <div className='max-w-6xl mx-auto py-10'>
+            <div className='max-w-6xl mx-auto py-24'>
                 {/* text */}
-                <div className='text-center space-y-3 pt-20'>
+                <div className='text-center space-y-3 pt-6'>
                     <h1 className='text-3xl font-bold'>Exploring Apartments Types</h1>
                     <p className='pb-5'>Aliquam lacinia diam quis lacus euismod</p>
                 </div>
