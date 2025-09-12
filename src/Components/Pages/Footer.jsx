@@ -88,14 +88,14 @@ const Footer = () => {
                             <h2 className='text-md font-bold'>Apps</h2>
                             <ul className='space-y-3 text-[#BEBDBD] text-xs'>
                                 <div className='w-full sm:w-38 h-14 bg-[#FFFFFF0A] rounded-md flex justify-start items-center p-4 gap-2'>
-                                    <FaApple className='text-xl text-white' />
+                                    <FaApple className='text-xl text-white hover:text-[#EB6753]' />
                                     <div>
                                         <h1 className='text-xs text-[#BEBDBD]'>Download on the</h1>
                                         <h2 className='text-white'>Apple Store</h2>
                                     </div>
                                 </div>
                                 <div className='w-full sm:w-38 h-14 bg-[#FFFFFF0A] rounded-md flex justify-start items-center p-4 gap-2'>
-                                    <FaGooglePlay className='text-xl text-white' />
+                                    <FaGooglePlay className='text-xl text-white hover:text-[#EB6753]' />
                                     <div>
                                         <h1 className='text-xs text-[#BEBDBD]'>Download on the</h1>
                                         <h2 className='text-white'>Google Play</h2>
@@ -113,10 +113,10 @@ const Footer = () => {
                         <div className='flex flex-col sm:flex-row items-center gap-2 sm:gap-4'>
                             <p className='font-bold'>Follow Us</p>
                             <div className='flex text-xl gap-4'>
-                                <BiLogoFacebook />
-                                <BiLogoTwitter />
-                                <BiLogoInstagram />
-                                <BiLogoLinkedin />
+                                <BiLogoFacebook className='hover:text-[#EB6753]' />
+                                <BiLogoTwitter  className='hover:text-[#EB6753]'/>
+                                <BiLogoInstagram className='hover:text-[#EB6753]' />
+                                <BiLogoLinkedin  className='hover:text-[#EB6753]'/>
                             </div>
                         </div>
                     </div>

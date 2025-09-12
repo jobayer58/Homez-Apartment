@@ -84,7 +84,7 @@ const Testimonials = () => {
                                         } flex-shrink-0 px-3`}
                                 >
                                     {/* Card */}
-                                    <div className="p-6 sm:p-10 lg:p-14 rounded-xl w-full h-auto border border-[#E9E9E9]">
+                                    <div className="p-6 sm:p-10 lg:p-14 rounded-xl w-full h-auto border border-[#E9E9E9] ">
                                         <div className='flex justify-between'>
                                             <div className='flex gap-4 items-center'>
                                                 <img

@@ -18,11 +18,11 @@ const BuyOrSell = () => {
                     </p>
 
                     <div className='flex flex-col md:flex-row gap-4 md:gap-6 justify-center py-4'>
-                        <button className='flex bg-[#EB6753] font-bold px-5 md:px-7 py-3 md:py-4 rounded-xl items-center  gap-2 text-sm md:text-base'>
+                        <button className='flex bg-[#EB6753] hover:bg-white hover:text-black font-bold px-5 md:px-7 py-3 md:py-4 rounded-xl items-center  gap-2 text-sm md:text-base'>
                             Submit Property <GoArrowUpRight className='text-xl md:text-2xl' />
                         </button>
 
-                        <button className='flex text-black bg-white px-5 md:px-7 py-3 md:py-4 rounded-xl items-center gap-2 font-bold text-sm md:text-base'>
+                        <button className='flex text-black hover:bg-[#EB6753] hover:text-white bg-white px-5 md:px-7 py-3 md:py-4 rounded-xl items-center gap-2 font-bold text-sm md:text-base'>
                             Browser Properties <GoArrowUpRight className='text-xl md:text-2xl' />
                         </button>
                     </div>

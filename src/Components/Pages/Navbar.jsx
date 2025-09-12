@@ -88,7 +88,7 @@ const Navbar = () => {
                             <CgProfile className="text-2xl" />
                             <h2 className="text-[14px]">Login / Register</h2>
                         </div>
-                        <button className="flex items-center justify-center gap-2 bg-white border border-white rounded-[12px] py-2 px-5 text-black cursor-pointer font-bold text-xs">
+                        <button className="flex items-center justify-center gap-2 bg-white border border-white rounded-[12px]  py-2 px-5 text-black cursor-pointer font-bold text-xs">
                             Add Property <GoArrowUpRight className="text-xl" />
                         </button>
                     </div>

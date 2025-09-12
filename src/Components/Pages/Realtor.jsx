@@ -17,7 +17,7 @@ const Realtor = () => {
                 <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-9 gap-5 py-10 pb-20 px-5 lg:px-2'>
                     
                     {/* 1 */}
-                    <div className='relative col-span-1 sm:col-span-1 lg:col-span-3 h-[398px] bg-white rounded-2xl text-center space-y-8 py-12'>
+                    <div className='relative col-span-1 sm:col-span-1 lg:col-span-3 h-[398px] bg-white rounded-2xl text-center space-y-8 py-12 hover:shadow-2xl transition-shadow duration-300'>
                         <div className='flex items-center justify-center'>
                             <img src={icon1} alt="" />
                         </div>
@@ -34,7 +34,7 @@ const Realtor = () => {
                     </div>
 
                     {/* 2 */}
-                    <div className='relative col-span-1 sm:col-span-1 lg:col-span-3 h-[398px] bg-white rounded-2xl text-center space-y-8 py-12'>
+                    <div className='relative col-span-1 sm:col-span-1 lg:col-span-3 h-[398px] bg-white rounded-2xl text-center space-y-8 py-12 hover:shadow-2xl transition-shadow duration-300'>
                         <div className='flex items-center justify-center'>
                             <img src={icon2} alt="" />
                         </div>
@@ -51,7 +51,7 @@ const Realtor = () => {
                     </div>
 
                     {/* 3 */}
-                    <div className='relative col-span-1 sm:col-span-2 lg:col-span-3 h-[398px] bg-white rounded-2xl text-center space-y-8 py-12'>
+                    <div className='relative col-span-1 sm:col-span-2 lg:col-span-3 h-[398px] bg-white rounded-2xl text-center space-y-8 py-12 hover:shadow-2xl transition-shadow duration-300'>
                         <div className='flex items-center justify-center'>
                             <img src={icon3} alt="" />
                         </div>

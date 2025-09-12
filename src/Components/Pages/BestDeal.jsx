@@ -56,10 +56,10 @@ const BestDeal = () => {
                             Aliquam lacinia diam quis lacus euismod
                         </h1>
                         <div className='flex gap-2'>
-                            <button className='bg-white text-[#EB6753] px-4 sm:px-5 py-2 rounded-md text-sm'>
+                            <button className='bg-white hover:text-white hover:bg-[#FFFFFF1A] text-[#EB6753] px-4 sm:px-5 py-2 rounded-md text-sm'>
                                 For Sale
                             </button>
-                            <button className='bg-[#FFFFFF1A] text-white px-4 sm:px-5 py-2 rounded-md text-sm'>
+                            <button className='bg-[#FFFFFF1A] hover:bg-white hover:text-[#EB6753] text-white px-4 sm:px-5 py-2 rounded-md text-sm'>
                                 For Rent
                             </button>
                         </div>
@@ -67,11 +67,11 @@ const BestDeal = () => {
                 </div>
 
                 {/* Property Grid */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 ">
                     {properties.map((property) => (
                         <div 
                             key={property.id} 
-                            className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300"
+                            className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-2xl transition-shadow duration-300 "
                         >
                             {/* Property Image */}
                             <div className="relative">
