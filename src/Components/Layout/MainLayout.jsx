@@ -10,6 +10,7 @@ import Trusted from '../Pages/Trusted';
 import BestDeal from '../Pages/BestDeal';
 import OurBlog from '../Pages/OurBlog';
 import Testimonials from '../Pages/Testimonials';
+import BuyOrSell from '../Pages/BuyOrSell';
 
 const MainLayout = () => {
     return (
@@ -20,7 +21,8 @@ const MainLayout = () => {
             <ApartmentTypes></ApartmentTypes>
             <Realtor></Realtor>
             <ApartmentCard></ApartmentCard>
-            <BuySell></BuySell>
+            <BuyOrSell></BuyOrSell>
+            {/* <BuySell></BuySell> */}
             <Testimonials></Testimonials>
             <BestDeal></BestDeal>
             <OurBlog></OurBlog>

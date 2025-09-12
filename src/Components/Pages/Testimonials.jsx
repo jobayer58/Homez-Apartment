@@ -62,7 +62,7 @@ const Testimonials = () => {
 
     return (
         <div className='max-w-[1536px] mx-auto'>
-            <div className='text-center space-y-3 pt-20 py-24'>
+            <div className='text-center space-y-3 pt-24 py-32'>
                 <h1 className='text-3xl font-bold'>People Love Living with Realtor</h1>
                 <p className='pb-5'>Aliquam lacinia diam quis lacus euismod</p>
 
